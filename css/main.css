@@ -7,6 +7,9 @@
 .headerimg{
     width: 100%;
     top: 0;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
     z-index: -1;
     position: absolute;
     clip: rect(0px,10000px,550px,0px);
@@ -53,7 +56,8 @@ main{
 }
 body{ 
     max-width: 100%; 
-    overflow-x: hidden; 
+    overflow-x: hidden !important; 
+    height: 100%;
 }
 .contactheader{
     background-color: black;
@@ -292,8 +296,16 @@ footer{
 @media only screen and (max-width: 815px){
     .footerul{
         flex-direction: column;
+        padding-top: 2rem;
     }
     .footerli{
         margin: 0 auto;
+        padding: 1rem;
+    }
+    footer{
+        height: 500px;
+    }
+    .copyright{
+        margin-top: 11rem;
     }
 }

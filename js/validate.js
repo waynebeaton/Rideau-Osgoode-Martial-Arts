@@ -18,7 +18,7 @@ var validateProfile = function(){
     }
     if(valid){
         
-     document.getElementById("form").action = "https://formspree.io/wayne@rokc.ca";
+     document.getElementById("form").action = "https://formspree.io/info@rideauosgoode.ca";
      document.getElementById("form").method = "POST";
         valid = true;
     }
