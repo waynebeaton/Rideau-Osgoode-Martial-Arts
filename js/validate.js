@@ -9,7 +9,7 @@ var validateProfile = function(){
         valid = false;
     }
     if (document.contact.phone.value === "") {
-     document.getElementById('phonealert').innerHTML="*Please enter a company*";
+     document.getElementById('phonealert').innerHTML="*Please enter a phone number*";
         valid = false;
     }
     if (document.contact.message.value === "") {
